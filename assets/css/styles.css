@@ -1181,6 +1181,7 @@ img{
         padding: 3rem 2.5rem 0;
         grid-template-columns: 1fr max-content;
         column-gap: 3rem;
+        place-items: center;
     }
 
     .project__data{
