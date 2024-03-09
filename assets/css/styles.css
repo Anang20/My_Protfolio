@@ -206,6 +206,20 @@ img{
     color: var(--first-color);
 }
 
+.char__bounce {
+    position: relative;
+    animation: moveUpDown 8s infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30%);
+    }
+}
+
 @media screen and (max-width: 767px){
     .nav__menu{
         position: fixed;

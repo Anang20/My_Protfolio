@@ -9,6 +9,9 @@
         
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!-- AOS CSS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -75,18 +78,18 @@
                 <div class="home__container container grid">
                     <div class="home__content grid">
                         <div class="home__social">
-                            <a href="https://www.linkedin.com/in/anang-syah-amirul-haqim/" target="_blank" class="home__social-icon">
+                            <a data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500" href="https://www.linkedin.com/in/anang-syah-amirul-haqim/" target="_blank" class="home__social-icon">
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
-                            <a href="https://github.com/Anang20" target="_blank" class="home__social-icon">
+                            <a data-aos="fade-right" data-aos-delay="150" data-aos-duration="1600" href="https://github.com/Anang20" target="_blank" class="home__social-icon">
                                 <i class="uil uil-github-alt"></i>
                             </a>
-                            <a href="https://gitlab.com/Anang20" target="_blank" class="home__social-icon">
+                            <a data-aos="fade-right" data-aos-delay="200" data-aos-duration="1700" href="https://gitlab.com/Anang20" target="_blank" class="home__social-icon">
                                 <i class="uil uil-gitlab"></i>
                             </a>
                         </div>
 
-                        <div class="home__img">
+                        <div data-aos="fade-up" data-aos-duration="1500" data-aos-offset="0" class="home__img">
                             <!-- <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
                                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
@@ -101,10 +104,10 @@
                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
                                 </g>
                             </svg> -->
-                            <img src="./assets/img/3d-char.png" alt="3d"/>
+                            <img class="char__bounce" src="./assets/img/3d-char.png" alt="3d"/>
                         </div>
 
-                        <div class="home__data">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="home__data">
                             <h1 class="home__title">Hi, I'am Anang Syah Amirul Haqim</h1>
                             <h3 class="home__subtitle">Front-End Developer</h3>
                             <p class="home__description">A Front-end Developer with 2 years of experience who enjoys learning modern web technologies.</p>
@@ -126,31 +129,31 @@
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My introduction</span>
+                <h2 data-aos="fade-up" data-aos-duration="1500" class="section__title">About Me</h2>
+                <span data-aos="fade-up" data-aos-duration="1500" class="section__subtitle">My introduction</span>
  
                 <div class="about__container container grid">
-                    <img src="assets/img/about1.jpg" alt="" class="about__img">
+                    <img data-aos="fade-right" data-aos-duration="1500" src="assets/img/about1.jpg" alt="" class="about__img">
 
                     <div class="about_data">
-                        <p class="about__description">I am an experienced Frontend Developer with 2 years of experience. I have a strong understanding of website and application development with a focus on user interface (UI) and user experience (UX) design as well as integrating APIs. Throughout my career, I have been involved in various development projects, ranging from simple websites to complex web applications</p>
+                        <p data-aos="fade-left" data-aos-duration="1500" class="about__description">I am an experienced Frontend Developer with 2 years of experience. I have a strong understanding of website and application development with a focus on user interface (UI) and user experience (UX) design as well as integrating APIs. Throughout my career, I have been involved in various development projects, ranging from simple websites to complex web applications</p>
 
                         <div class="about__info">
-                            <div>
+                            <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="100">
                                 <span class="about__info-title">2</span>
                                 <span class="about__info-name">Years <br> experience</span>
                             </div>
-                            <div>
+                            <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="150">
                                 <span class="about__info-title">15+</span>
                                 <span class="about__info-name">Completed <br> project</span>
                             </div>
-                            <div>
+                            <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
                                 <span class="about__info-title">3</span>
                                 <span class="about__info-name">Companies <br> Working</span>
                             </div>
                         </div>
 
-                        <div class="about__buttons">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="about__buttons">
                             <a download="CV_FrontEndDeveloper_Anang.pdf" href="/assets/CV_FrontendDeveloper_AnangSyahAmirulHaqim.pdf" class="button button-flex">
                                 Download CV<i class="uil uil-download-alt button__icon"></i>
                             </a>
@@ -161,8 +164,8 @@
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My technical level</span>
+                <h2 data-aos="fade-up" class="section__title">Skills</h2>
+                <span data-aos="fade-up" data-aos-duration="1500" class="section__subtitle">My technical level</span>
 
                 <div class="skills__container container grid">
                     <div>
@@ -372,11 +375,11 @@
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
-                <h2 class="section__title">Qualification</h2>
-                <span class="section__subtitle">My personal journey</span>
+                <h2 data-aos="fade-up" data-aos-duration="1500" class="section__title">Qualification</h2>
+                <span data-aos="fade-up" data-aos-duration="1500" class="section__subtitle">My personal journey</span>
 
                 <div class="qualification__container container">
-                    <div class="qualification__tabs">
+                    <div data-aos="fade-up" data-aos-duration="1500" class="qualification__tabs">
                         <div class="qualification__button button-flex qualification__active" data-target="#education">
                             <i class="uil uil-graduation-cap qualification__icon"></i>
                             Education
@@ -392,7 +395,7 @@
                         <div class="qualification__content qualification__active" data-content id="education">
                             <!--==================== QUALIFICATION CONTENT 1 ====================-->
                             <div class="qualification__data">
-                                <div>
+                                <div data-aos="fade-right" data-aos-duration="1500">
                                     <h3 class="qualification__title">Software Engineering Major</h3>
                                     <span class="qualification__subtitle">SMK N 1 Bangsri</span>
                                     <div class="qualification__calendar">
@@ -416,7 +419,7 @@
                                     <!-- <span class="qualification__line"></span> -->
                                 </div>
 
-                                <div>
+                                <div data-aos="fade-left" data-aos-duration="1500">
                                     <h3 class="qualification__title">Fullstack Developer Class</h3>
                                     <span class="qualification__subtitle">Dignitas Academy Bootcamp</span>
                                     <div class="qualification__calendar">
@@ -431,7 +434,7 @@
                         <div class="qualification__content"data-content id="work">
                             <!--==================== QUALIFICATION CONTENT 1 ====================-->
                             <div class="qualification__data">
-                                <div>
+                                <div data-aos="fade-right" data-aos-duration="1500">
                                     <h3 class="qualification__title">Web Developer Intern</h3>
                                     <span class="qualification__subtitle">PT Teknologi Otomatisasi Prima</span>
                                     <div class="qualification__calendar">
@@ -455,7 +458,7 @@
                                     <span class="qualification__line"></span>
                                 </div>
 
-                                <div>
+                                <div data-aos="fade-left" data-aos-duration="1500">
                                     <h3 class="qualification__title">Front-End Developer</h3>
                                     <span class="qualification__subtitle">PT Adyatama Cendekia Sinergi Abadi</span>
                                     <div class="qualification__calendar">
@@ -466,7 +469,7 @@
                             </div>
 
                             <div class="qualification__data">
-                                <div>
+                                <div data-aos="fade-right" data-aos-duration="1500">
                                     <h3 class="qualification__title">Front-End Developer</h3>
                                     <span class="qualification__subtitle">PT Infosys Solusi Terpadu</span>
                                     <div class="qualification__calendar">
@@ -487,12 +490,12 @@
 
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
-                <h2 class="section__title">Services</h2>
-                <span class="section__subtitle">What i offer</span>
+                <h2 data-aos="fade-up" data-aos-duration="1500" class="section__title">Services</h2>
+                <span data-aos="fade-up" data-aos-duration="1500" class="section__subtitle">What i offer</span>
 
                 <div class="services__container container grid">
                     <!--==================== SERVICES 1 ====================-->
-                    <div class="services__content">
+                    <div data-aos="fade-up" data-aos-duration="1500" class="services__content">
                         <div>
                             <i class="uil uil-web-grid services__icon"></i>
                             <h3 class="services__title">Ui/Ux <br> Designer</h3>
@@ -519,7 +522,7 @@
                     </div>
 
                     <!--==================== SERVICES 2 ====================-->
-                    <div class="services__content">
+                    <div data-aos="fade-up" data-aos-duration="1500" class="services__content">
                         <div>
                             <i class="uil uil-arrow services__icon"></i>
                             <h3 class="services__title">Frontend <br> Developer</h3>
@@ -562,10 +565,10 @@
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Portfolio</h2>
-                <span class="section__subtitle">Most recent work</span>
+                <h2 data-aos="fade-up" data-aos-duration="1500" class="section__title">Portfolio</h2>
+                <span data-aos="fade-up" data-aos-duration="1500" class="section__subtitle">Most recent work</span>
 
-                <div class="portfolio__container container swiper-container">
+                <div data-aos="fade-up" data-aos-duration="1500" class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1 ====================-->
                         <div class="portfolio__content grid swiper-slide">
@@ -663,12 +666,12 @@
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get in touch</span>
+                <h2 data-aos="fade-up" data-aos-duration="1500" class="section__title">Contact Me</h2>
+                <span data-aos="fade-up" data-aos-duration="1500" class="section__subtitle">Get in touch</span>
 
                 <div class="contact__container container grid">
                     <div>
-                        <div class="contact__information">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="contact__information">
                             <i class="uil uil-whatsapp contact__icon"></i>
 
                             <div>
@@ -677,7 +680,7 @@
                             </div>
                         </div>
 
-                        <div class="contact__information">
+                        <div data-aos="fade-right" data-aos-duration="1600" class="contact__information">
                             <i class="uil uil-envelope contact__icon"></i>
 
                             <div>
@@ -686,7 +689,7 @@
                             </div>
                         </div>
 
-                        <div class="contact__information">
+                        <div data-aos="fade-right" data-aos-duration="1700" class="contact__information">
                             <i class="uil uil-map-marker contact__icon"></i>
 
                             <div>
@@ -698,25 +701,25 @@
 
                     <form action="" class="contact__form grid">
                         <div class="container__input grid">
-                            <div class="contact__content">
+                            <div data-aos="fade-left" data-aos-duration="1500" class="contact__content">
                                 <label id="name" for="" class="contact__label">Name</label>
                                 <input type="text" class="contact__input">
                             </div>
-                            <div class="contact__content">
+                            <div data-aos="fade-left" data-aos-duration="1600" class="contact__content">
                                 <label id="email" for="" class="contact__label">Email</label>
                                 <input type="email" class="contact__input">
                             </div>
                         </div>
-                        <div class="contact__content">
+                        <div data-aos="fade-left" data-aos-duration="1700" class="contact__content">
                             <label id="project" for="" class="contact__label">Project</label>
                             <input type="text" class="contact__input">
                         </div>
-                        <div class="contact__content">
+                        <div data-aos="fade-left" data-aos-duration="1800" class="contact__content">
                             <label id="message" for="" class="contact__label">Message</label>
                             <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
 
-                        <div>
+                        <div data-aos="fade-up" data-aos-duration="1500">
                             <a href="#" class="button button-flex">
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
@@ -730,7 +733,7 @@
         <!--==================== FOOTER ====================-->
         <footer class="footer">
             <div class="footer__bg">
-                <div class="footer__container container grid">
+                <div data-aos="fade-up" data-aos-duration="1500" class="footer__container container grid">
                     <div>
                         <h1 class="footer__title">Anang</h1>
                         <span class="footer__subtitle">Front-End developer</span>
@@ -763,7 +766,7 @@
                     </div>
                 </div>
 
-                <p class="footer__copy">&#169; Anang. All right reserved</p>
+                <p data-aos="fade-up" data-aos-duration="1500" class="footer__copy">&#169; Anang. All right reserved</p>
             </div>
             
         </footer>
@@ -772,6 +775,9 @@
         <a href="#" class="scrollup" id="scroll-up">
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
